@@ -1,22 +1,13 @@
+import json
+import os
 
 class DB:
-
     def __init__(self):
-        self.canteen_list = [
-            {"id": 0, "name": "Столовая 1", "description": "Ну столовка", "place": "Где-то 1", "photo": ["/img/0/0", "/img/0/1", "/img/0/2"]},
-            {"id": 1, "name": "Столовая 2", "description": "Ну столовка", "place": "Где-то 2", "photo": ["/img/1/0", "/img/1/1", "/img/1/2"]},
-            {"id": 2, "name": "Столовая 3", "description": "Ну столовка", "place": "Где-то 3", "photo": ["/img/2/0", "/img/2/1", "/img/2/2"]}
-        ]
+        with open(f"{os.getcwd()}\\app\\canteen_data.json", "r", encoding="utf-8") as f:
+            data = json.load(f)
+        self.canteen_list = data["canteen_list"]
 
-        self.dishes = [
-            {"id": 0, "canteen_id": 0, "name": "Вода", "category": ["Напитки"], "price": 50.00},
-            {"id": 1, "canteen_id": 1, "name": "Вода", "category": ["Напитки"], "price": 50.00},
-            {"id": 2, "canteen_id": 2, "name": "Вода", "category": ["Напитки"], "price": 50.00},
-            {"id": 3, "canteen_id": 1, "name": "Кола", "category": ["Напитки"], "price": 50.00},
-            {"id": 4, "canteen_id": 0, "name": "Вода", "category": ["Напитки"], "price": 50.00},
-            {"id": 5, "canteen_id": 2, "name": "Вода", "category": ["Напитки"], "price": 50.00},
-            {"id": 6, "canteen_id": 0, "name": "Вода", "category": ["Напитки"], "price": 50.00},
-        ]
+        self.dishes = data["dishes"]
 
     def get_canteen_list(self):
         return self.canteen_list

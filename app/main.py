@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
+from fastapi.middleware.cors import CORSMiddleware
 from app.db import DB
 from app.schemas import CanteenInfo, Error404, DishInfo
 import os
@@ -7,7 +8,13 @@ import os
 app = FastAPI()
 db = DB()
 
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:8080", "http://127.0.0.1:8080"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.on_event("startup")
 async def startup():
@@ -95,3 +102,8 @@ async def get_dish_by_dish_id(dish_id: int, canteen_id: int | None = None):
 async def main(can: int, img_info: str):
     return FileResponse(f"{os.getcwd()}/app/static/img/canteen_img/{can}/{img_info}.jpg")
 
+
+@app.get("/img/{info}")
+async def get_img(info: str):
+    print(f"{os.getcwd()}/app/static/img/{info}")
+    return FileResponse(f"{os.getcwd()}/app/static/img/{info}")

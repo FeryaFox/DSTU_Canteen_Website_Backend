@@ -5,5 +5,5 @@ class DishInfo(BaseModel):
     id: int
     canteen_id: int
     name: str
-    category: list[str]
+    category: str
     price: float

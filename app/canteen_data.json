@@ -1,0 +1,1574 @@
+{
+    "canteen_list": [
+        {
+            "id": 0,
+            "name": "РУСЬ",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat malesuada tellus vel accumsan. Aliquam erat volutpat. Vestibulum dignissim, metus ut porttitor suscipit, magna nisi pellentesque erat, vel egestas nisl metus in elit. Pellentesque in nulla sit amet tellus accumsan sodales vel id justo.",
+            "place": "",
+            "photo": ["/api/img/0/0", "/api/img/0/1"]
+        },
+        {
+            "id": 1,
+            "name": "Буфет - 1 корпус - 3 этаж ( (3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat malesuada tellus vel accumsan. Aliquam erat volutpat. Vestibulum dignissim, metus ut porttitor suscipit, magna nisi pellentesque erat, vel egestas nisl metus in elit. Pellentesque in nulla sit amet tellus accumsan sodales vel id justo.",
+            "place": "",
+            "photo": ["/api/img/1/0", "/api/img/1/1"]
+        },
+        {
+            "id": 2,
+            "name": "ЭКСПРЕСС",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat malesuada tellus vel accumsan. Aliquam erat volutpat. Vestibulum dignissim, metus ut porttitor suscipit, magna nisi pellentesque erat, vel egestas nisl metus in elit. Pellentesque in nulla sit amet tellus accumsan sodales vel id justo.",
+            "place": "",
+            "photo": ["/api/img/2/0", "/api/img/2/1"]
+        }
+    ],
+    "dishes": [
+        {
+            "id": 0,
+            "canteen_id": 0,
+            "name": "Винегрет с фасолью",
+            "category": "Холодные блюда",
+            "price": 36.0
+        },
+        {
+            "id": 1,
+            "canteen_id": 0,
+            "name": "Лобио с фасолью",
+            "category": "Холодные блюда",
+            "price": 32.0
+        },
+        {
+            "id": 2,
+            "canteen_id": 0,
+            "name": "Салат Радужный",
+            "category": "Холодные блюда",
+            "price": 34.0
+        },
+        {
+            "id": 3,
+            "canteen_id": 0,
+            "name": "Салат из свежих овощей",
+            "category": "Холодные блюда",
+            "price": 40.0
+        },
+        {
+            "id": 4,
+            "canteen_id": 0,
+            "name": "Баклажаны маринованные",
+            "category": "Холодные блюда",
+            "price": 28.0
+        },
+        {
+            "id": 5,
+            "canteen_id": 0,
+            "name": "Яйцо с овощами под майонезом",
+            "category": "Холодные блюда",
+            "price": 38.0
+        },
+        {
+            "id": 6,
+            "canteen_id": 0,
+            "name": "Салат из крабовых палочек",
+            "category": "Холодные блюда",
+            "price": 53.0
+        },
+        {
+            "id": 7,
+            "canteen_id": 0,
+            "name": "Салат Греческий",
+            "category": "Холодные блюда",
+            "price": 54.0
+        },
+        {
+            "id": 8,
+            "canteen_id": 0,
+            "name": "Салат селедочный",
+            "category": "Холодные блюда",
+            "price": 70.0
+        },
+        {
+            "id": 9,
+            "canteen_id": 0,
+            "name": "Яйцо вареное",
+            "category": "Холодные блюда",
+            "price": 18.0
+        },
+        {
+            "id": 10,
+            "canteen_id": 0,
+            "name": "Морковь по-корейски",
+            "category": "Холодные блюда",
+            "price": 31.0
+        },
+        {
+            "id": 11,
+            "canteen_id": 0,
+            "name": "Винегрет с фасолью",
+            "category": "Холодные блюда",
+            "price": 34.0
+        },
+        {
+            "id": 12,
+            "canteen_id": 0,
+            "name": "Баклажаны маринованые",
+            "category": "Холодные блюда",
+            "price": 28.0
+        },
+        {
+            "id": 13,
+            "canteen_id": 0,
+            "name": "Салат из сввежих овощей",
+            "category": "Холодные блюда",
+            "price": 40.0
+        },
+        {
+            "id": 14,
+            "canteen_id": 0,
+            "name": "Морская капуста с яйцом",
+            "category": "Холодные блюда",
+            "price": 50.0
+        },
+        {
+            "id": 15,
+            "canteen_id": 0,
+            "name": "Салат из свеклы с майонезои и яйцом",
+            "category": "Холодные блюда",
+            "price": 55.0
+        },
+        {
+            "id": 16,
+            "canteen_id": 0,
+            "name": "Салат Оливье",
+            "category": "Холодные блюда",
+            "price": 48.0
+        },
+        {
+            "id": 17,
+            "canteen_id": 0,
+            "name": "Салат Ветчинный",
+            "category": "Холодные блюда",
+            "price": 50.0
+        },
+        {
+            "id": 18,
+            "canteen_id": 0,
+            "name": "Салат Цезарь",
+            "category": "Холодные блюда",
+            "price": 45.0
+        },
+        {
+            "id": 19,
+            "canteen_id": 0,
+            "name": "Салат Нежность",
+            "category": "Холодные блюда",
+            "price": 53.0
+        },
+        {
+            "id": 20,
+            "canteen_id": 0,
+            "name": "Салат Селеста",
+            "category": "Холодные блюда",
+            "price": 58.0
+        },
+        {
+            "id": 21,
+            "canteen_id": 0,
+            "name": "Суп овощной со сметаной",
+            "category": "Первые блюда",
+            "price": 37.0
+        },
+        {
+            "id": 22,
+            "canteen_id": 0,
+            "name": "Уха",
+            "category": "Первые блюда",
+            "price": 76.0
+        },
+        {
+            "id": 23,
+            "canteen_id": 0,
+            "name": "Борщ со сметаной",
+            "category": "Первые блюда",
+            "price": 41.0
+        },
+        {
+            "id": 24,
+            "canteen_id": 0,
+            "name": "Суп с грибами",
+            "category": "Первые блюда",
+            "price": 40.0
+        },
+        {
+            "id": 25,
+            "canteen_id": 0,
+            "name": "Суп сырный с грибами",
+            "category": "Первые блюда",
+            "price": 45.0
+        },
+        {
+            "id": 26,
+            "canteen_id": 0,
+            "name": "Окрошка со сметаной",
+            "category": "Первые блюда",
+            "price": 58.0
+        },
+        {
+            "id": 27,
+            "canteen_id": 0,
+            "name": "Суп гороховый с мясом",
+            "category": "Первые блюда",
+            "price": 58.0
+        },
+        {
+            "id": 28,
+            "canteen_id": 0,
+            "name": "Щи зеленые со сметаной",
+            "category": "Первые блюда",
+            "price": 64.0
+        },
+        {
+            "id": 29,
+            "canteen_id": 0,
+            "name": "Суп картофельный с фрикадельками",
+            "category": "Первые блюда",
+            "price": 73.0
+        },
+        {
+            "id": 30,
+            "canteen_id": 0,
+            "name": "Содянка мясная",
+            "category": "Первые блюда",
+            "price": 120.0
+        },
+        {
+            "id": 31,
+            "canteen_id": 0,
+            "name": "Рис отварной с соусом",
+            "category": "Гарнир",
+            "price": 25.0
+        },
+        {
+            "id": 32,
+            "canteen_id": 0,
+            "name": "Макароны отварные с соусом",
+            "category": "Гарнир",
+            "price": 22.0
+        },
+        {
+            "id": 33,
+            "canteen_id": 0,
+            "name": "Гречка с соусом",
+            "category": "Гарнир",
+            "price": 31.0
+        },
+        {
+            "id": 34,
+            "canteen_id": 0,
+            "name": "Картофельное пюре",
+            "category": "Гарнир",
+            "price": 30.0
+        },
+        {
+            "id": 35,
+            "canteen_id": 0,
+            "name": "Картофель фри",
+            "category": "Гарнир",
+            "price": 32.0
+        },
+        {
+            "id": 36,
+            "canteen_id": 0,
+            "name": "Корж молочный",
+            "category": "Мучные изделия",
+            "price": 19.0
+        },
+        {
+            "id": 37,
+            "canteen_id": 0,
+            "name": "Пирожок жареный с картофелем",
+            "category": "Мучные изделия",
+            "price": 30.0
+        },
+        {
+            "id": 38,
+            "canteen_id": 0,
+            "name": "Пирожок жареный с капустой",
+            "category": "Мучные изделия",
+            "price": 30.0
+        },
+        {
+            "id": 39,
+            "canteen_id": 0,
+            "name": "Пирожок сдобный с повидлом",
+            "category": "Мучные изделия",
+            "price": 24.0
+        },
+        {
+            "id": 40,
+            "canteen_id": 0,
+            "name": "Булочка Аппетитная",
+            "category": "Мучные изделия",
+            "price": 27.0
+        },
+        {
+            "id": 41,
+            "canteen_id": 0,
+            "name": "Ватрушка с творогом",
+            "category": "Мучные изделия",
+            "price": 29.0
+        },
+        {
+            "id": 42,
+            "canteen_id": 0,
+            "name": "Сочник с творогом",
+            "category": "Мучные изделия",
+            "price": 27.0
+        },
+        {
+            "id": 43,
+            "canteen_id": 0,
+            "name": "Рулет с маком",
+            "category": "Мучные изделия",
+            "price": 26.0
+        },
+        {
+            "id": 44,
+            "canteen_id": 0,
+            "name": "Пирожок жареный с луком и яйцом",
+            "category": "Мучные изделия",
+            "price": 28.0
+        },
+        {
+            "id": 45,
+            "canteen_id": 0,
+            "name": "Пирожок сдобный с яблоком",
+            "category": "Мучные изделия",
+            "price": 29.0
+        },
+        {
+            "id": 46,
+            "canteen_id": 0,
+            "name": "Рогалик с повидлом",
+            "category": "Мучные изделия",
+            "price": 21.0
+        },
+        {
+            "id": 47,
+            "canteen_id": 0,
+            "name": "Кулебяка с капустой",
+            "category": "Мучные изделия",
+            "price": 37.0
+        },
+        {
+            "id": 48,
+            "canteen_id": 0,
+            "name": "Слойка с творогом",
+            "category": "Мучные изделия",
+            "price": 29.0
+        },
+        {
+            "id": 49,
+            "canteen_id": 0,
+            "name": "Хачапури сдобный с сыром",
+            "category": "Мучные изделия",
+            "price": 40.0
+        },
+        {
+            "id": 50,
+            "canteen_id": 0,
+            "name": "Булочка с сахаром",
+            "category": "Мучные изделия",
+            "price": 26.0
+        },
+        {
+            "id": 51,
+            "canteen_id": 0,
+            "name": "Пирожок сдобный с черной смародиной",
+            "category": "Мучные изделия",
+            "price": 29.0
+        },
+        {
+            "id": 52,
+            "canteen_id": 0,
+            "name": "Пирожок сдобный с черной смародиной и яблоком",
+            "category": "Мучные изделия",
+            "price": 29.0
+        },
+        {
+            "id": 53,
+            "canteen_id": 0,
+            "name": "Маффин",
+            "category": "Мучные изделия",
+            "price": 30.0
+        },
+        {
+            "id": 54,
+            "canteen_id": 0,
+            "name": "Сосиска в тесте с сыром",
+            "category": "Мучные изделия",
+            "price": 52.0
+        },
+        {
+            "id": 55,
+            "canteen_id": 0,
+            "name": "Пицца с курицей",
+            "category": "Мучные изделия",
+            "price": 55.0
+        },
+        {
+            "id": 56,
+            "canteen_id": 0,
+            "name": "Пицца с сыром",
+            "category": "Мучные изделия",
+            "price": 55.0
+        },
+        {
+            "id": 57,
+            "canteen_id": 0,
+            "name": "Гамбургер с бифштексом",
+            "category": "Мучные изделия",
+            "price": 67.0
+        },
+        {
+            "id": 58,
+            "canteen_id": 0,
+            "name": "Сырники со сметаной и сахаром",
+            "category": "Вторые блюда",
+            "price": 36.0
+        },
+        {
+            "id": 59,
+            "canteen_id": 0,
+            "name": "Блинчики с творогом",
+            "category": "Вторые блюда",
+            "price": 36.0
+        },
+        {
+            "id": 60,
+            "canteen_id": 0,
+            "name": "Рыба жареная",
+            "category": "Вторые блюда",
+            "price": 71.0
+        },
+        {
+            "id": 61,
+            "canteen_id": 0,
+            "name": "Котлета рыбная",
+            "category": "Вторые блюда",
+            "price": 56.0
+        },
+        {
+            "id": 62,
+            "canteen_id": 0,
+            "name": "Блинчики с мясом",
+            "category": "Вторые блюда",
+            "price": 58.0
+        },
+        {
+            "id": 63,
+            "canteen_id": 0,
+            "name": "Котлета куриная",
+            "category": "Вторые блюда",
+            "price": 61.0
+        },
+        {
+            "id": 64,
+            "canteen_id": 0,
+            "name": "Шашлык из птицы",
+            "category": "Вторые блюда",
+            "price": 94.0
+        },
+        {
+            "id": 65,
+            "canteen_id": 0,
+            "name": "Рыба жареная в кляре",
+            "category": "Вторые блюда",
+            "price": 76.0
+        },
+        {
+            "id": 66,
+            "canteen_id": 0,
+            "name": "Рыба жареная",
+            "category": "Вторые блюда",
+            "price": 72.0
+        },
+        {
+            "id": 67,
+            "canteen_id": 0,
+            "name": "Рыба под майонезом",
+            "category": "Вторые блюда",
+            "price": 93.0
+        },
+        {
+            "id": 68,
+            "canteen_id": 0,
+            "name": "Крылышки куриные",
+            "category": "Вторые блюда",
+            "price": 68.0
+        },
+        {
+            "id": 69,
+            "canteen_id": 0,
+            "name": "Филе куриное с яблокм",
+            "category": "Вторые блюда",
+            "price": 91.0
+        },
+        {
+            "id": 70,
+            "canteen_id": 0,
+            "name": "Отбивная из филе птицы",
+            "category": "Вторые блюда",
+            "price": 97.0
+        },
+        {
+            "id": 71,
+            "canteen_id": 0,
+            "name": "Эскалоп куриный",
+            "category": "Вторые блюда",
+            "price": 107.0
+        },
+        {
+            "id": 72,
+            "canteen_id": 0,
+            "name": "Филе куриное руьленое с зеленью ",
+            "category": "Вторые блюда",
+            "price": 108.0
+        },
+        {
+            "id": 73,
+            "canteen_id": 0,
+            "name": "Котлета По-Киевски",
+            "category": "Вторые блюда",
+            "price": 119.0
+        },
+        {
+            "id": 74,
+            "canteen_id": 0,
+            "name": "Ножка курина",
+            "category": "Вторые блюда",
+            "price": 101.0
+        },
+        {
+            "id": 75,
+            "canteen_id": 0,
+            "name": "Куры жареные",
+            "category": "Вторые блюда",
+            "price": 121.0
+        },
+        {
+            "id": 76,
+            "canteen_id": 0,
+            "name": "Цыплята табака",
+            "category": "Вторые блюда",
+            "price": 111.0
+        },
+        {
+            "id": 77,
+            "canteen_id": 0,
+            "name": "Тефтели из говядины в соусе",
+            "category": "Вторые блюда",
+            "price": 62.0
+        },
+        {
+            "id": 78,
+            "canteen_id": 0,
+            "name": "Голубцы из говядины с соусом",
+            "category": "Вторые блюда",
+            "price": 94.0
+        },
+        {
+            "id": 79,
+            "canteen_id": 0,
+            "name": "Бифштекс из говядинф",
+            "category": "Вторые блюда",
+            "price": 99.0
+        },
+        {
+            "id": 80,
+            "canteen_id": 0,
+            "name": "Пельмени",
+            "category": "Вторые блюда",
+            "price": 115.0
+        },
+        {
+            "id": 81,
+            "canteen_id": 0,
+            "name": "Говядина тушенная с овощами",
+            "category": "Вторые блюда",
+            "price": 115.0
+        },
+        {
+            "id": 82,
+            "canteen_id": 0,
+            "name": "Люля кебаб",
+            "category": "Вторые блюда",
+            "price": 115.0
+        },
+        {
+            "id": 83,
+            "canteen_id": 0,
+            "name": "Жаркое",
+            "category": "Вторые блюда",
+            "price": 115.0
+        },
+        {
+            "id": 84,
+            "canteen_id": 0,
+            "name": "Печень говяжья под майонезом",
+            "category": "Вторые блюда",
+            "price": 107.0
+        },
+        {
+            "id": 85,
+            "canteen_id": 0,
+            "name": "Плов мясной",
+            "category": "Вторые блюда",
+            "price": 94.0
+        },
+        {
+            "id": 86,
+            "canteen_id": 0,
+            "name": "Отбивная свинная",
+            "category": "Вторые блюда",
+            "price": 88.0
+        },
+        {
+            "id": 87,
+            "canteen_id": 0,
+            "name": "Мясо под майонезом",
+            "category": "Вторые блюда",
+            "price": 124.0
+        },
+        {
+            "id": 88,
+            "canteen_id": 0,
+            "name": "Чай с сахаром",
+            "category": "Напитки",
+            "price": 18.0
+        },
+        {
+            "id": 89,
+            "canteen_id": 0,
+            "name": "Компот из свежих фруктов",
+            "category": "Напитки",
+            "price": 20.0
+        },
+        {
+            "id": 90,
+            "canteen_id": 0,
+            "name": "Кофе 3 в 1",
+            "category": "Напитки",
+            "price": 25.0
+        },
+        {
+            "id": 91,
+            "canteen_id": 0,
+            "name": "Кофе Нескафе",
+            "category": "Напитки",
+            "price": 21.0
+        },
+        {
+            "id": 92,
+            "canteen_id": 0,
+            "name": "Горячий шоколад",
+            "category": "Напитки",
+            "price": 21.0
+        },
+        {
+            "id": 93,
+            "canteen_id": 0,
+            "name": "Капучино",
+            "category": "Напитки",
+            "price": 26.0
+        },
+        {
+            "id": 0,
+            "canteen_id": 1,
+            "name": "Сочник",
+            "category": "Десерт",
+            "price": 27.0
+        },
+        {
+            "id": 1,
+            "canteen_id": 1,
+            "name": "Чизкейк",
+            "category": "Десерт",
+            "price": 33.0
+        },
+        {
+            "id": 2,
+            "canteen_id": 1,
+            "name": "Штрудель с яблоком",
+            "category": "Мучные изделия",
+            "price": 46.0
+        },
+        {
+            "id": 3,
+            "canteen_id": 1,
+            "name": "Булочка со сгущенкой",
+            "category": "Мучные изделия",
+            "price": 28.0
+        },
+        {
+            "id": 4,
+            "canteen_id": 1,
+            "name": "Пирожок сдобный с смородиной и яблоком",
+            "category": "Мучные изделия",
+            "price": 39.0
+        },
+        {
+            "id": 5,
+            "canteen_id": 1,
+            "name": "Булочка с маком",
+            "category": "Мучные изделия",
+            "price": 31.0
+        },
+        {
+            "id": 6,
+            "canteen_id": 1,
+            "name": "Булочка с творогом и изюмом",
+            "category": "Мучные изделия",
+            "price": 34.0
+        },
+        {
+            "id": 7,
+            "canteen_id": 1,
+            "name": "Пирожок с вишней",
+            "category": "Мучные изделия",
+            "price": 29.0
+        },
+        {
+            "id": 8,
+            "canteen_id": 1,
+            "name": "Пирожок с яблоком ",
+            "category": "Мучные изделия",
+            "price": 29.0
+        },
+        {
+            "id": 9,
+            "canteen_id": 1,
+            "name": "Бутерброд с ветчиной, сыром, овощами",
+            "category": "Мучные изделия",
+            "price": 66.0
+        },
+        {
+            "id": 10,
+            "canteen_id": 1,
+            "name": "Гамбургер",
+            "category": "Мучные изделия",
+            "price": 67.0
+        },
+        {
+            "id": 11,
+            "canteen_id": 1,
+            "name": "Жульен с курицей",
+            "category": "Мучные изделия",
+            "price": 84.0
+        },
+        {
+            "id": 12,
+            "canteen_id": 1,
+            "name": "Закрытая пицца",
+            "category": "Мучные изделия",
+            "price": 84.0
+        },
+        {
+            "id": 13,
+            "canteen_id": 1,
+            "name": "Бутерброд с котлетой, люля, овощами и зеленью",
+            "category": "Мучные изделия",
+            "price": 96.0
+        },
+        {
+            "id": 14,
+            "canteen_id": 1,
+            "name": "Сосиска в сдобном тесте",
+            "category": "Мучные изделия",
+            "price": 58.0
+        },
+        {
+            "id": 15,
+            "canteen_id": 1,
+            "name": "Слойка с мясом",
+            "category": "Мучные изделия",
+            "price": 50.0
+        },
+        {
+            "id": 16,
+            "canteen_id": 1,
+            "name": "Пирожок жареный с печенью",
+            "category": "Мучные изделия",
+            "price": 31.0
+        },
+        {
+            "id": 17,
+            "canteen_id": 1,
+            "name": "Пирожок сдобный с грибами",
+            "category": "Мучные изделия",
+            "price": 31.0
+        },
+        {
+            "id": 18,
+            "canteen_id": 1,
+            "name": "Пирожок сдобный с мясом",
+            "category": "Мучные изделия",
+            "price": 31.0
+        },
+        {
+            "id": 19,
+            "canteen_id": 1,
+            "name": "Курник",
+            "category": "Мучные изделия",
+            "price": 66.0
+        },
+        {
+            "id": 20,
+            "canteen_id": 1,
+            "name": "Слойка с ветчиной и сыром",
+            "category": "Мучные изделия",
+            "price": 67.0
+        },
+        {
+            "id": 21,
+            "canteen_id": 1,
+            "name": "Хачапури слоеный с сыром",
+            "category": "Мучные изделия",
+            "price": 52.0
+        },
+        {
+            "id": 22,
+            "canteen_id": 1,
+            "name": "Хачапури сдобный с сыром",
+            "category": "Мучные изделия",
+            "price": 40.0
+        },
+        {
+            "id": 23,
+            "canteen_id": 1,
+            "name": "Пирожок сдобный с капустой",
+            "category": "Мучные изделия",
+            "price": 30.0
+        },
+        {
+            "id": 24,
+            "canteen_id": 1,
+            "name": "Слойка с кортофелем и грибами",
+            "category": "Мучные изделия",
+            "price": 31.0
+        },
+        {
+            "id": 25,
+            "canteen_id": 1,
+            "name": "Беляш",
+            "category": "Мучные изделия",
+            "price": 41.0
+        },
+        {
+            "id": 26,
+            "canteen_id": 1,
+            "name": "Пирожок жареный с картофелем",
+            "category": "Мучные изделия",
+            "price": 30.0
+        },
+        {
+            "id": 27,
+            "canteen_id": 1,
+            "name": "Пирожок жареный с капустой",
+            "category": "Мучные изделия",
+            "price": 30.0
+        },
+        {
+            "id": 28,
+            "canteen_id": 1,
+            "name": "Лодочка с курицей и овощами",
+            "category": "Мучные изделия",
+            "price": 66.0
+        },
+        {
+            "id": 29,
+            "canteen_id": 1,
+            "name": "Пицца с колбасой",
+            "category": "Мучные изделия",
+            "price": 51.0
+        },
+        {
+            "id": 30,
+            "canteen_id": 1,
+            "name": "Печенье Сметанное",
+            "category": "Десерт",
+            "price": 46.0
+        },
+        {
+            "id": 31,
+            "canteen_id": 1,
+            "name": "Коктейль Чудо",
+            "category": "Напитки",
+            "price": 50.0
+        },
+        {
+            "id": 32,
+            "canteen_id": 1,
+            "name": "Напиток Evervess",
+            "category": "Напитки",
+            "price": 60.0
+        },
+        {
+            "id": 33,
+            "canteen_id": 1,
+            "name": "Напиток Добрый Кола",
+            "category": "Напитки",
+            "price": 55.0
+        },
+        {
+            "id": 34,
+            "canteen_id": 1,
+            "name": "Напиток Черноголовка байкал",
+            "category": "Напитки",
+            "price": 43.0
+        },
+        {
+            "id": 35,
+            "canteen_id": 1,
+            "name": "Напиток Мохито",
+            "category": "Напитки",
+            "price": 43.0
+        },
+        {
+            "id": 36,
+            "canteen_id": 1,
+            "name": "Буше со сгущенкой",
+            "category": "Десерт",
+            "price": 27.0
+        },
+        {
+            "id": 37,
+            "canteen_id": 1,
+            "name": "Пирожное Наполеон",
+            "category": "Десерт",
+            "price": 46.0
+        },
+        {
+            "id": 38,
+            "canteen_id": 1,
+            "name": "Мокко",
+            "category": "Десерт",
+            "price": 50.0
+        },
+        {
+            "id": 39,
+            "canteen_id": 1,
+            "name": "Пирожное Ева",
+            "category": "Десерт",
+            "price": 57.0
+        },
+        {
+            "id": 40,
+            "canteen_id": 1,
+            "name": "Пирожное Лотос",
+            "category": "Десерт",
+            "price": 51.0
+        },
+        {
+            "id": 41,
+            "canteen_id": 1,
+            "name": "Сметанник",
+            "category": "Десерт",
+            "price": 38.0
+        },
+        {
+            "id": 42,
+            "canteen_id": 1,
+            "name": "Пирожное Янтарь",
+            "category": "Десерт",
+            "price": 33.0
+        },
+        {
+            "id": 0,
+            "canteen_id": 2,
+            "name": "Яйцо вареное",
+            "category": "Холодные блюда",
+            "price": 18.0
+        },
+        {
+            "id": 1,
+            "canteen_id": 2,
+            "name": "Морковь по-корейски",
+            "category": "Холодные блюда",
+            "price": 31.0
+        },
+        {
+            "id": 2,
+            "canteen_id": 2,
+            "name": "Салат из свежей капусты",
+            "category": "Холодные блюда",
+            "price": 33.0
+        },
+        {
+            "id": 3,
+            "canteen_id": 2,
+            "name": "Салат Фитнес",
+            "category": "Холодные блюда",
+            "price": 30.0
+        },
+        {
+            "id": 4,
+            "canteen_id": 2,
+            "name": "Салат из свежих овощей ",
+            "category": "Холодные блюда",
+            "price": 40.0
+        },
+        {
+            "id": 5,
+            "canteen_id": 2,
+            "name": "Яйцо с гарниром",
+            "category": "Холодные блюда",
+            "price": 38.0
+        },
+        {
+            "id": 6,
+            "canteen_id": 2,
+            "name": "Салат из свеклы с сыром, майонезом, яйцом",
+            "category": "Холодные блюда",
+            "price": 55.0
+        },
+        {
+            "id": 7,
+            "canteen_id": 2,
+            "name": "Салат Оригинальный",
+            "category": "Холодные блюда",
+            "price": 50.0
+        },
+        {
+            "id": 8,
+            "canteen_id": 2,
+            "name": "Салат Оливье",
+            "category": "Холодные блюда",
+            "price": 48.0
+        },
+        {
+            "id": 9,
+            "canteen_id": 2,
+            "name": "Салат Венский",
+            "category": "Холодные блюда",
+            "price": 45.0
+        },
+        {
+            "id": 10,
+            "canteen_id": 2,
+            "name": "Салат Крабовый",
+            "category": "Холодные блюда",
+            "price": 58.0
+        },
+        {
+            "id": 11,
+            "canteen_id": 2,
+            "name": "Салат Ветчинный",
+            "category": "Холодные блюда",
+            "price": 50.0
+        },
+        {
+            "id": 12,
+            "canteen_id": 2,
+            "name": "Салат Греческий",
+            "category": "Холодные блюда",
+            "price": 54.0
+        },
+        {
+            "id": 13,
+            "canteen_id": 2,
+            "name": "Салат Карусель",
+            "category": "Холодные блюда",
+            "price": 53.0
+        },
+        {
+            "id": 14,
+            "canteen_id": 2,
+            "name": "Салат Экспресс",
+            "category": "Холодные блюда",
+            "price": 45.0
+        },
+        {
+            "id": 15,
+            "canteen_id": 2,
+            "name": "Салат с курицей и ананасом",
+            "category": "Холодные блюда",
+            "price": 65.0
+        },
+        {
+            "id": 16,
+            "canteen_id": 2,
+            "name": "Сельдь с гарниром",
+            "category": "Холодные блюда",
+            "price": 55.0
+        },
+        {
+            "id": 17,
+            "canteen_id": 2,
+            "name": "Салат из курицы с черносливом",
+            "category": "Холодные блюда",
+            "price": 68.0
+        },
+        {
+            "id": 18,
+            "canteen_id": 2,
+            "name": "Салат Мимоза",
+            "category": "Холодные блюда",
+            "price": 51.0
+        },
+        {
+            "id": 19,
+            "canteen_id": 2,
+            "name": "Суп гороховый с курицей",
+            "category": "Первые блюда",
+            "price": 44.0
+        },
+        {
+            "id": 20,
+            "canteen_id": 2,
+            "name": "Лапша с курицей",
+            "category": "Первые блюда",
+            "price": 44.0
+        },
+        {
+            "id": 21,
+            "canteen_id": 2,
+            "name": "Суп харчо с мясом",
+            "category": "Первые блюда",
+            "price": 64.0
+        },
+        {
+            "id": 22,
+            "canteen_id": 2,
+            "name": "Гречка с соусом",
+            "category": "Гарнир",
+            "price": 31.0
+        },
+        {
+            "id": 23,
+            "canteen_id": 2,
+            "name": "Овощи жареные",
+            "category": "Гарнир",
+            "price": 54.0
+        },
+        {
+            "id": 24,
+            "canteen_id": 2,
+            "name": "Картофель по-деревенски",
+            "category": "Гарнир",
+            "price": 59.0
+        },
+        {
+            "id": 25,
+            "canteen_id": 2,
+            "name": "Котлеты рыбные",
+            "category": "Вторые блюда",
+            "price": 85.0
+        },
+        {
+            "id": 26,
+            "canteen_id": 2,
+            "name": "Филе куриное с сыром и ветчиной",
+            "category": "Вторые блюда",
+            "price": 83.0
+        },
+        {
+            "id": 27,
+            "canteen_id": 2,
+            "name": "Перец фаршированный",
+            "category": "Вторые блюда",
+            "price": 82.0
+        },
+        {
+            "id": 28,
+            "canteen_id": 2,
+            "name": "Кармашек из птицы",
+            "category": "Вторые блюда",
+            "price": 93.0
+        },
+        {
+            "id": 29,
+            "canteen_id": 2,
+            "name": "Ножка фаршированная овощами",
+            "category": "Вторые блюда",
+            "price": 101.0
+        },
+        {
+            "id": 30,
+            "canteen_id": 2,
+            "name": "Эскалоп куриный с овощами",
+            "category": "Вторые блюда",
+            "price": 107.0
+        },
+        {
+            "id": 31,
+            "canteen_id": 2,
+            "name": "Куры жареные",
+            "category": "Вторые блюда",
+            "price": 121.0
+        },
+        {
+            "id": 32,
+            "canteen_id": 2,
+            "name": "Котлета по-киевски",
+            "category": "Вторые блюда",
+            "price": 119.0
+        },
+        {
+            "id": 33,
+            "canteen_id": 2,
+            "name": "Говядина тушёная с овощами",
+            "category": "Вторые блюда",
+            "price": 115.0
+        },
+        {
+            "id": 34,
+            "canteen_id": 2,
+            "name": "Отбивная свинная",
+            "category": "Вторые блюда",
+            "price": 88.0
+        },
+        {
+            "id": 35,
+            "canteen_id": 2,
+            "name": "Свинная вырезка с ветчиной",
+            "category": "Вторые блюда",
+            "price": 99.0
+        },
+        {
+            "id": 36,
+            "canteen_id": 2,
+            "name": "Плов мясной",
+            "category": "Вторые блюда",
+            "price": 84.0
+        },
+        {
+            "id": 37,
+            "canteen_id": 2,
+            "name": "Корж молочный",
+            "category": "Мучные изделия",
+            "price": 19.0
+        },
+        {
+            "id": 38,
+            "canteen_id": 2,
+            "name": "Пирожок жареный с картофелем",
+            "category": "Мучные изделия",
+            "price": 30.0
+        },
+        {
+            "id": 39,
+            "canteen_id": 2,
+            "name": "Пирожок жареный с капустой",
+            "category": "Мучные изделия",
+            "price": 30.0
+        },
+        {
+            "id": 40,
+            "canteen_id": 2,
+            "name": "Пирожок сдобный с повидлом",
+            "category": "Мучные изделия",
+            "price": 24.0
+        },
+        {
+            "id": 41,
+            "canteen_id": 2,
+            "name": "Булочка Аппетитная",
+            "category": "Мучные изделия",
+            "price": 27.0
+        },
+        {
+            "id": 42,
+            "canteen_id": 2,
+            "name": "Ватрушка с творогом",
+            "category": "Мучные изделия",
+            "price": 29.0
+        },
+        {
+            "id": 43,
+            "canteen_id": 2,
+            "name": "Сочник с творогом",
+            "category": "Мучные изделия",
+            "price": 27.0
+        },
+        {
+            "id": 44,
+            "canteen_id": 2,
+            "name": "Рулет с маком",
+            "category": "Мучные изделия",
+            "price": 26.0
+        },
+        {
+            "id": 45,
+            "canteen_id": 2,
+            "name": "Пирожок жареный с луком и яйцом",
+            "category": "Мучные изделия",
+            "price": 28.0
+        },
+        {
+            "id": 46,
+            "canteen_id": 2,
+            "name": "Пирожок сдобный с яблоком",
+            "category": "Мучные изделия",
+            "price": 29.0
+        },
+        {
+            "id": 47,
+            "canteen_id": 2,
+            "name": "Рогалик с повидлом",
+            "category": "Мучные изделия",
+            "price": 21.0
+        },
+        {
+            "id": 48,
+            "canteen_id": 2,
+            "name": "Кулебяка с капустой",
+            "category": "Мучные изделия",
+            "price": 37.0
+        },
+        {
+            "id": 49,
+            "canteen_id": 2,
+            "name": "Слойка с творогом",
+            "category": "Мучные изделия",
+            "price": 29.0
+        },
+        {
+            "id": 50,
+            "canteen_id": 2,
+            "name": "Хачапури сдобный с сыром",
+            "category": "Мучные изделия",
+            "price": 40.0
+        },
+        {
+            "id": 51,
+            "canteen_id": 2,
+            "name": "Булочка с сахаром",
+            "category": "Мучные изделия",
+            "price": 26.0
+        },
+        {
+            "id": 52,
+            "canteen_id": 2,
+            "name": "Пирожок сдобный с черной смародиной",
+            "category": "Мучные изделия",
+            "price": 29.0
+        },
+        {
+            "id": 53,
+            "canteen_id": 2,
+            "name": "Пирожок сдобный с черной смародиной и яблоком",
+            "category": "Мучные изделия",
+            "price": 29.0
+        },
+        {
+            "id": 54,
+            "canteen_id": 2,
+            "name": "Маффин",
+            "category": "Мучные изделия",
+            "price": 30.0
+        },
+        {
+            "id": 55,
+            "canteen_id": 2,
+            "name": "Сосиска в тесте с сыром",
+            "category": "Мучные изделия",
+            "price": 52.0
+        },
+        {
+            "id": 56,
+            "canteen_id": 2,
+            "name": "Пицца с курицей",
+            "category": "Мучные изделия",
+            "price": 55.0
+        },
+        {
+            "id": 57,
+            "canteen_id": 2,
+            "name": "Пицца с сыром",
+            "category": "Мучные изделия",
+            "price": 55.0
+        },
+        {
+            "id": 58,
+            "canteen_id": 2,
+            "name": "Гамбургер с бифштексом",
+            "category": "Мучные изделия",
+            "price": 67.0
+        },
+        {
+            "id": 59,
+            "canteen_id": 2,
+            "name": "Чай с сахаром",
+            "category": "Напитки",
+            "price": 18.0
+        },
+        {
+            "id": 60,
+            "canteen_id": 2,
+            "name": "Компот из свежих фруктов",
+            "category": "Напитки",
+            "price": 20.0
+        },
+        {
+            "id": 61,
+            "canteen_id": 2,
+            "name": "Кисель",
+            "category": "Напитки",
+            "price": 20.0
+        },
+        {
+            "id": 62,
+            "canteen_id": 2,
+            "name": "Кофе 3 в 1",
+            "category": "Напитки",
+            "price": 25.0
+        },
+        {
+            "id": 63,
+            "canteen_id": 2,
+            "name": "Горячий шоколад",
+            "category": "Напитки",
+            "price": 21.0
+        },
+        {
+            "id": 64,
+            "canteen_id": 2,
+            "name": "Кофе Нескафе",
+            "category": "Напитки",
+            "price": 21.0
+        },
+        {
+            "id": 65,
+            "canteen_id": 2,
+            "name": "Кефир",
+            "category": "Напитки",
+            "price": 22.0
+        },
+        {
+            "id": 66,
+            "canteen_id": 2,
+            "name": "Сок томатный",
+            "category": "Напитки",
+            "price": 27.0
+        },
+        {
+            "id": 67,
+            "canteen_id": 2,
+            "name": "Капучино с шоколадной крошкой",
+            "category": "Напитки",
+            "price": 27.0
+        },
+        {
+            "id": 68,
+            "canteen_id": 2,
+            "name": "Жульен",
+            "category": "Мучные изделия",
+            "price": 84.0
+        },
+        {
+            "id": 69,
+            "canteen_id": 2,
+            "name": "Пончик со сгущенкой",
+            "category": "Мучные изделия",
+            "price": 21.0
+        },
+        {
+            "id": 70,
+            "canteen_id": 2,
+            "name": "Плюшка с маком",
+            "category": "Мучные изделия",
+            "price": 24.0
+        },
+        {
+            "id": 71,
+            "canteen_id": 2,
+            "name": "Булочка с творогом и изюмом",
+            "category": "Мучные изделия",
+            "price": 34.0
+        },
+        {
+            "id": 72,
+            "canteen_id": 2,
+            "name": "Пирожок с вишней",
+            "category": "Мучные изделия",
+            "price": 29.0
+        },
+        {
+            "id": 73,
+            "canteen_id": 2,
+            "name": "Пирожок с яблоком ",
+            "category": "Мучные изделия",
+            "price": 29.0
+        },
+        {
+            "id": 74,
+            "canteen_id": 2,
+            "name": "Бутерброд с ветчиной, сыром, овощами",
+            "category": "Мучные изделия",
+            "price": 66.0
+        },
+        {
+            "id": 75,
+            "canteen_id": 2,
+            "name": "Гамбургер",
+            "category": "Мучные изделия",
+            "price": 67.0
+        },
+        {
+            "id": 76,
+            "canteen_id": 2,
+            "name": "Жульен с курицей",
+            "category": "Мучные изделия",
+            "price": 84.0
+        },
+        {
+            "id": 77,
+            "canteen_id": 2,
+            "name": "Закрытая пицца",
+            "category": "Мучные изделия",
+            "price": 84.0
+        },
+        {
+            "id": 78,
+            "canteen_id": 2,
+            "name": "Бутерброд с котлетой, люля, овощами и зеленью",
+            "category": "Мучные изделия",
+            "price": 96.0
+        },
+        {
+            "id": 79,
+            "canteen_id": 2,
+            "name": "Сосиска в сдобном тесте",
+            "category": "Мучные изделия",
+            "price": 58.0
+        },
+        {
+            "id": 80,
+            "canteen_id": 2,
+            "name": "Слойка с мясом",
+            "category": "Мучные изделия",
+            "price": 50.0
+        },
+        {
+            "id": 81,
+            "canteen_id": 2,
+            "name": "Пирожок жареный с печенью",
+            "category": "Мучные изделия",
+            "price": 31.0
+        },
+        {
+            "id": 82,
+            "canteen_id": 2,
+            "name": "Пирожок сдобный с грибами",
+            "category": "Мучные изделия",
+            "price": 31.0
+        },
+        {
+            "id": 83,
+            "canteen_id": 2,
+            "name": "Пирожок сдобный с мясом",
+            "category": "Мучные изделия",
+            "price": 31.0
+        }
+    ]
+}
